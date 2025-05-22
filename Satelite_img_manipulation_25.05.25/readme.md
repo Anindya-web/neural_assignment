@@ -1,6 +1,6 @@
 Satelite Image Processing Using Deep Learning
 
-This project provides a Python script for processing images in a Google Colab environment, specifically for resizing and cropping images from a dataset. It is designed for neural research applications, such as preparing medical imaging data (e.g., COVID-19 scans) for machine learning tasks.
+This project provides a Python script for processing images in a Google Colab environment, specifically for resizing and cropping images from a dataset. It is designed for neural research applications for deep learning tasks.
 
 Table of Contents
 
