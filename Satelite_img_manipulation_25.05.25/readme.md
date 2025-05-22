@@ -54,8 +54,8 @@ Cropped images are saved in the specified cropping output_dir.
 
 Technologies Used
 
-Python: Core programming language (version 3.x).
-OpenCV (cv2): For image reading, resizing, and cropping.
-NumPy: For handling image arrays and dimensions.
-Google Colab: Cloud-based environment for running the script.
-Google Drive: For storing and accessing image datasets.
+1. Python: Core programming language (version 3.x).
+2. OpenCV (cv2): For image reading, resizing, and cropping.
+3. NumPy: For handling image arrays and dimensions.
+4. Google Colab: Cloud-based environment for running the script.
+5. Google Drive: For storing and accessing image datasets.
