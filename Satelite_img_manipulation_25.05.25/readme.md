@@ -14,26 +14,22 @@ Satelite Image Processing Using Deep Learning project automates the resizing and
 
 Key Features
 
-Image Resizing: Resizes images to a uniform size (e.g., 224x224 or 300x350 pixels) for consistency in neural network input.
-Image Cropping: Crops specific regions of images (e.g., [60:400, 30:250]) for focused analysis.
-Batch Processing: Processes multiple images in a dataset directory automatically.
-Google Drive Integration: Mounts Google Drive to access and save images seamlessly in Colab.
-Error Handling: Skips invalid images and logs processing status for each file.
+1. Image Resizing: Resizes images to a uniform size (e.g., 224x224 or 300x350 pixels) for consistency in neural network input.
+2. Image Cropping: Crops specific regions of images (e.g., [60:400, 30:250]) for focused analysis.
+3. Batch Processing: Processes multiple images in a dataset directory automatically.
+4. Google Drive Integration: Mounts Google Drive to access and save images seamlessly in Colab.
+5. Error Handling: Skips invalid images and logs processing status for each file.
 
 Installation Guide
 To run this project locally or in Google Colab, follow these steps:
 
-Set Up Google Colab:
-
-Open Google Colab.
-Upload the provided .ipynb file or create a new notebook.
-
-Mount Google Drive:
-
+1. Set Up Google Colab:
+2. Open Google Colab.
+3. Upload the provided .ipynb file or create a new notebook.
+4. Mount Google Drive:
 Run the following code to mount your Google Drive:from google.colab import drive
 drive.mount('/content/drive')
-
-Follow the authentication prompt to grant access.
+5. Follow the authentication prompt to grant access.
 
 Prepare Dataset:
 
@@ -49,7 +45,7 @@ Execute the cells to resize and crop images.
 Check Output:
 
 Resized images are saved in the specified output_dir (e.g., /content/drive/MyDrive/Resized_Dataset_images).
-Cropped images are saved in the specified cropping output_dir.
+Cropped images are saved in the specified cropping output_dir (e.g., /content/drive/MyDrive/Cropped_Dataset_images).
 
 
 Technologies Used
